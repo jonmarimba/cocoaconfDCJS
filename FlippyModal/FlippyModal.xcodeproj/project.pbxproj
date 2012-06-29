@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3E6E33159CFC6900FC91AC /* UIViewController+CenteredModalPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E6E32159CFC6900FC91AC /* UIViewController+CenteredModalPresentation.m */; };
+		AB3E6E38159CFD2700FC91AC /* ENHFlipInViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E6E36159CFD2700FC91AC /* ENHFlipInViewControllerTest.m */; };
+		AB3E6E39159CFD2700FC91AC /* ENHFlipInViewControllerTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3E6E37159CFD2700FC91AC /* ENHFlipInViewControllerTest.xib */; };
+		AB47971C159D43F500515EFD /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47971B159D43F500515EFD /* CustomTableViewCell.m */; };
+		AB6E8DF8159D47C7007E03CD /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6E8DF7159D47C7007E03CD /* CustomTableViewCell.xib */; };
+		AB93C524159D05A900C3F644 /* ENHFadingCellsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB93C521159D05A900C3F644 /* ENHFadingCellsTableView.m */; };
+		AB93C525159D05A900C3F644 /* ENHFadingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB93C523159D05A900C3F644 /* ENHFadingTableViewController.m */; };
+		AB93C528159D082100C3F644 /* TableViewBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = AB93C527159D082100C3F644 /* TableViewBackGroundImage.png */; };
+		ABF1CE1D1597EB91008018C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF1CE1C1597EB91008018C5 /* UIKit.framework */; };
+		ABF1CE1F1597EB91008018C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF1CE1E1597EB91008018C5 /* Foundation.framework */; };
+		ABF1CE211597EB91008018C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF1CE201597EB91008018C5 /* CoreGraphics.framework */; };
+		ABF1CE271597EB91008018C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABF1CE251597EB91008018C5 /* InfoPlist.strings */; };
+		ABF1CE291597EB91008018C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1CE281597EB91008018C5 /* main.m */; };
+		ABF1CE2D1597EB91008018C5 /* ENHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1CE2C1597EB91008018C5 /* ENHAppDelegate.m */; };
+		ABF1CE301597EB91008018C5 /* ENHMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1CE2F1597EB91008018C5 /* ENHMasterViewController.m */; };
+		ABF1CE331597EB91008018C5 /* ENHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1CE321597EB91008018C5 /* ENHDetailViewController.m */; };
+		ABF1CE361597EB91008018C5 /* ENHMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF1CE341597EB91008018C5 /* ENHMasterViewController.xib */; };
+		ABF1CE391597EB91008018C5 /* ENHDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF1CE371597EB91008018C5 /* ENHDetailViewController.xib */; };
+		ABFA3B24159D048A00AF774D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA3B23159D048A00AF774D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB3E6E31159CFC6900FC91AC /* UIViewController+CenteredModalPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CenteredModalPresentation.h"; sourceTree = "<group>"; };
+		AB3E6E32159CFC6900FC91AC /* UIViewController+CenteredModalPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CenteredModalPresentation.m"; sourceTree = "<group>"; };
+		AB3E6E35159CFD2700FC91AC /* ENHFlipInViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENHFlipInViewControllerTest.h; sourceTree = "<group>"; };
+		AB3E6E36159CFD2700FC91AC /* ENHFlipInViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENHFlipInViewControllerTest.m; sourceTree = "<group>"; };
+		AB3E6E37159CFD2700FC91AC /* ENHFlipInViewControllerTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ENHFlipInViewControllerTest.xib; sourceTree = "<group>"; };
+		AB47971A159D43F500515EFD /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		AB47971B159D43F500515EFD /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		AB6E8DF7159D47C7007E03CD /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		AB93C520159D05A900C3F644 /* ENHFadingCellsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENHFadingCellsTableView.h; sourceTree = "<group>"; };
+		AB93C521159D05A900C3F644 /* ENHFadingCellsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENHFadingCellsTableView.m; sourceTree = "<group>"; };
+		AB93C522159D05A900C3F644 /* ENHFadingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENHFadingTableViewController.h; sourceTree = "<group>"; };
+		AB93C523159D05A900C3F644 /* ENHFadingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENHFadingTableViewController.m; sourceTree = "<group>"; };
+		AB93C527159D082100C3F644 /* TableViewBackGroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableViewBackGroundImage.png; sourceTree = "<group>"; };
+		ABF1CE181597EB91008018C5 /* FlippyModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippyModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF1CE1C1597EB91008018C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABF1CE1E1597EB91008018C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABF1CE201597EB91008018C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABF1CE241597EB91008018C5 /* FlippyModal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlippyModal-Info.plist"; sourceTree = "<group>"; };
+		ABF1CE261597EB91008018C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABF1CE281597EB91008018C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF1CE2A1597EB91008018C5 /* FlippyModal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlippyModal-Prefix.pch"; sourceTree = "<group>"; };
+		ABF1CE2B1597EB91008018C5 /* ENHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENHAppDelegate.h; sourceTree = "<group>"; };
+		ABF1CE2C1597EB91008018C5 /* ENHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENHAppDelegate.m; sourceTree = "<group>"; };
+		ABF1CE2E1597EB91008018C5 /* ENHMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENHMasterViewController.h; sourceTree = "<group>"; };
+		ABF1CE2F1597EB91008018C5 /* ENHMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENHMasterViewController.m; sourceTree = "<group>"; };
+		ABF1CE311597EB91008018C5 /* ENHDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENHDetailViewController.h; sourceTree = "<group>"; };
+		ABF1CE321597EB91008018C5 /* ENHDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENHDetailViewController.m; sourceTree = "<group>"; };
+		ABF1CE351597EB91008018C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ENHMasterViewController.xib; sourceTree = "<group>"; };
+		ABF1CE381597EB91008018C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ENHDetailViewController.xib; sourceTree = "<group>"; };
+		ABFA3B23159D048A00AF774D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF1CE151597EB91008018C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA3B24159D048A00AF774D /* QuartzCore.framework in Frameworks */,
+				ABF1CE1D1597EB91008018C5 /* UIKit.framework in Frameworks */,
+				ABF1CE1F1597EB91008018C5 /* Foundation.framework in Frameworks */,
+				ABF1CE211597EB91008018C5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF1CE0D1597EB91008018C5 = {
+			isa = PBXGroup;
+			children = (
+				ABF1CE221597EB91008018C5 /* FlippyModal */,
+				ABF1CE1B1597EB91008018C5 /* Frameworks */,
+				ABF1CE191597EB91008018C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF1CE191597EB91008018C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF1CE181597EB91008018C5 /* FlippyModal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF1CE1B1597EB91008018C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA3B23159D048A00AF774D /* QuartzCore.framework */,
+				ABF1CE1C1597EB91008018C5 /* UIKit.framework */,
+				ABF1CE1E1597EB91008018C5 /* Foundation.framework */,
+				ABF1CE201597EB91008018C5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABF1CE221597EB91008018C5 /* FlippyModal */ = {
+			isa = PBXGroup;
+			children = (
+				AB47971A159D43F500515EFD /* CustomTableViewCell.h */,
+				AB47971B159D43F500515EFD /* CustomTableViewCell.m */,
+				AB6E8DF7159D47C7007E03CD /* CustomTableViewCell.xib */,
+				AB93C520159D05A900C3F644 /* ENHFadingCellsTableView.h */,
+				AB93C521159D05A900C3F644 /* ENHFadingCellsTableView.m */,
+				AB93C522159D05A900C3F644 /* ENHFadingTableViewController.h */,
+				AB93C523159D05A900C3F644 /* ENHFadingTableViewController.m */,
+				AB3E6E31159CFC6900FC91AC /* UIViewController+CenteredModalPresentation.h */,
+				AB3E6E32159CFC6900FC91AC /* UIViewController+CenteredModalPresentation.m */,
+				AB3E6E35159CFD2700FC91AC /* ENHFlipInViewControllerTest.h */,
+				AB3E6E36159CFD2700FC91AC /* ENHFlipInViewControllerTest.m */,
+				AB3E6E37159CFD2700FC91AC /* ENHFlipInViewControllerTest.xib */,
+				ABF1CE2B1597EB91008018C5 /* ENHAppDelegate.h */,
+				ABF1CE2C1597EB91008018C5 /* ENHAppDelegate.m */,
+				AB93C527159D082100C3F644 /* TableViewBackGroundImage.png */,
+				ABF1CE2E1597EB91008018C5 /* ENHMasterViewController.h */,
+				ABF1CE2F1597EB91008018C5 /* ENHMasterViewController.m */,
+				ABF1CE311597EB91008018C5 /* ENHDetailViewController.h */,
+				ABF1CE321597EB91008018C5 /* ENHDetailViewController.m */,
+				ABF1CE341597EB91008018C5 /* ENHMasterViewController.xib */,
+				ABF1CE371597EB91008018C5 /* ENHDetailViewController.xib */,
+				ABF1CE231597EB91008018C5 /* Supporting Files */,
+			);
+			path = FlippyModal;
+			sourceTree = "<group>";
+		};
+		ABF1CE231597EB91008018C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF1CE241597EB91008018C5 /* FlippyModal-Info.plist */,
+				ABF1CE251597EB91008018C5 /* InfoPlist.strings */,
+				ABF1CE281597EB91008018C5 /* main.m */,
+				ABF1CE2A1597EB91008018C5 /* FlippyModal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF1CE171597EB91008018C5 /* FlippyModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF1CE3C1597EB91008018C5 /* Build configuration list for PBXNativeTarget "FlippyModal" */;
+			buildPhases = (
+				ABF1CE141597EB91008018C5 /* Sources */,
+				ABF1CE151597EB91008018C5 /* Frameworks */,
+				ABF1CE161597EB91008018C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlippyModal;
+			productName = FlippyModal;
+			productReference = ABF1CE181597EB91008018C5 /* FlippyModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF1CE0F1597EB91008018C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ENH;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Sounds Broken inc";
+			};
+			buildConfigurationList = ABF1CE121597EB91008018C5 /* Build configuration list for PBXProject "FlippyModal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABF1CE0D1597EB91008018C5;
+			productRefGroup = ABF1CE191597EB91008018C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF1CE171597EB91008018C5 /* FlippyModal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF1CE161597EB91008018C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF1CE271597EB91008018C5 /* InfoPlist.strings in Resources */,
+				ABF1CE361597EB91008018C5 /* ENHMasterViewController.xib in Resources */,
+				ABF1CE391597EB91008018C5 /* ENHDetailViewController.xib in Resources */,
+				AB3E6E39159CFD2700FC91AC /* ENHFlipInViewControllerTest.xib in Resources */,
+				AB93C528159D082100C3F644 /* TableViewBackGroundImage.png in Resources */,
+				AB6E8DF8159D47C7007E03CD /* CustomTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF1CE141597EB91008018C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF1CE291597EB91008018C5 /* main.m in Sources */,
+				ABF1CE2D1597EB91008018C5 /* ENHAppDelegate.m in Sources */,
+				ABF1CE301597EB91008018C5 /* ENHMasterViewController.m in Sources */,
+				ABF1CE331597EB91008018C5 /* ENHDetailViewController.m in Sources */,
+				AB3E6E33159CFC6900FC91AC /* UIViewController+CenteredModalPresentation.m in Sources */,
+				AB3E6E38159CFD2700FC91AC /* ENHFlipInViewControllerTest.m in Sources */,
+				AB93C524159D05A900C3F644 /* ENHFadingCellsTableView.m in Sources */,
+				AB93C525159D05A900C3F644 /* ENHFadingTableViewController.m in Sources */,
+				AB47971C159D43F500515EFD /* CustomTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABF1CE251597EB91008018C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF1CE261597EB91008018C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABF1CE341597EB91008018C5 /* ENHMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF1CE351597EB91008018C5 /* en */,
+			);
+			name = ENHMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABF1CE371597EB91008018C5 /* ENHDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF1CE381597EB91008018C5 /* en */,
+			);
+			name = ENHDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF1CE3A1597EB91008018C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ABF1CE3B1597EB91008018C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF1CE3D1597EB91008018C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippyModal/FlippyModal-Prefix.pch";
+				INFOPLIST_FILE = "FlippyModal/FlippyModal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABF1CE3E1597EB91008018C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippyModal/FlippyModal-Prefix.pch";
+				INFOPLIST_FILE = "FlippyModal/FlippyModal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF1CE121597EB91008018C5 /* Build configuration list for PBXProject "FlippyModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF1CE3A1597EB91008018C5 /* Debug */,
+				ABF1CE3B1597EB91008018C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF1CE3C1597EB91008018C5 /* Build configuration list for PBXNativeTarget "FlippyModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF1CE3D1597EB91008018C5 /* Debug */,
+				ABF1CE3E1597EB91008018C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF1CE0F1597EB91008018C5 /* Project object */;
+}
