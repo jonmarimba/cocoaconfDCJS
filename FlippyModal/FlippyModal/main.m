@@ -3,7 +3,7 @@
 //  FlippyModal
 //
 //  Created by Jonathan Saggau on 6/24/12.
-//  Copyright (c) 2012 Sounds Broken inc. All rights reserved.
+//  Copyright (c) 2012 Enharmonic inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
